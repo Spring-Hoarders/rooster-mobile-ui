@@ -107,8 +107,8 @@ class _ApartamentsDetailsScreenState extends State<ApartamentsDetailsScreen>
                         return SlideTransition(
                           position: _offsets[0],
                           child: ClientCard(
-                            name: "MATEO DOKA",
-                            phone: "  +355684458530",
+                            name: "MATEO  DOKA",
+                            phone: "  +355 68 445 8530",
                           ),
                         );
                       },
@@ -119,7 +119,31 @@ class _ApartamentsDetailsScreenState extends State<ApartamentsDetailsScreen>
                         return SlideTransition(
                           position: _offsets[1],
                           child: ClientCard(
-                            name: "MATEO DOKA",
+                            name: "ENKEL  MURATI",
+                            phone: "  +355 69 966 0867",
+                          ),
+                        );
+                      },
+                    ),
+                    AnimatedBuilder(
+                      animation: _offsets[2],
+                      builder: (context, child) {
+                        return SlideTransition(
+                          position: _offsets[2],
+                          child: ClientCard(
+                            name: "XHOI  LUSHAJ",
+                            phone: " +355 69 739 0523",
+                          ),
+                        );
+                      },
+                    ),
+                    AnimatedBuilder(
+                      animation: _offsets[2],
+                      builder: (context, child) {
+                        return SlideTransition(
+                          position: _offsets[2],
+                          child: ClientCard(
+                            name: "FORSIAN  ELEZI",
                             phone: "  +355684458530",
                           ),
                         );
@@ -131,7 +155,7 @@ class _ApartamentsDetailsScreenState extends State<ApartamentsDetailsScreen>
                         return SlideTransition(
                           position: _offsets[2],
                           child: ClientCard(
-                            name: "MATEO DOKA",
+                            name: "ERALD  CAKA",
                             phone: "  +355684458530",
                           ),
                         );

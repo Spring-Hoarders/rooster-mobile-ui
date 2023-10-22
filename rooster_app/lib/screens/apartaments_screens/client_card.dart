@@ -12,17 +12,13 @@ class ClientCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.of(context).push(MaterialPageRoute(
-        //   builder: (context) => ContractFormPage(),
-        // ));
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => ContractScreen(),
+        ));
       },
       child: Card(
         elevation: 0,
         shape: RoundedRectangleBorder(
-          side: BorderSide(
-            color: Theme.of(context).colorScheme.outline,
-            width: 0.5,
-          ),
           borderRadius: const BorderRadius.all(Radius.circular(18)),
         ),
         child: Column(
