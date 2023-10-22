@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:rooster_app/screens/apartaments_screens/apartament_details_screen.dart';
 import 'package:rooster_app/screens/home_screen.dart/building_details.dart';
 import 'package:rooster_app/screens/home_screen.dart/home_page.dart';
 
@@ -45,7 +46,8 @@ class ApartamentCard extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const HomePage()),
+                            builder: (context) =>
+                                const ApartamentsDetailsScreen()),
                       );
                     },
                     child: Expanded(
